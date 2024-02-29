@@ -11,8 +11,6 @@ The Package Delivery Network System is designed to optimize daily local delivery
 ## Technologies Used
 
 - **Python**: For algorithm development and backend logic.
-- **Custom Hash Table**: Specifically designed hash table and other supporting structures for optimized data handling.
-    - *Note: Only non-dictionary default Python structures were used to construct a hash table as dictionaries were not allowed for this assignment.*
 
 ## Usage
 
