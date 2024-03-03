@@ -1,57 +1,43 @@
-## Package Delivery Network System
+# Package Delivery Network System
 
 The Package Delivery Network System is an innovative solution tailored for the Parcel Service's local delivery operations, employing a greedy nearest neighbor algorithm and a custom hash table to ensure efficient and timely package deliveries within a specific mileage limit.
 
-{TODO Image  Placeholder for Project Overview}
+![overview of package delivery network at 12:00](assets/package_delivery_network.png)
 
 ## Table of Contents
+
 - [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Languages Used](#languages-used)
 - [Usage](#usage)
 - [License](#license)
 
 ## Features
+
 - **Intelligent Routing Algorithm:** Utilizes a greedy nearest neighbor algorithm to optimize delivery routes under 140 miles, guaranteeing timely package arrivals.
 - **Optimized for Scalability:** The system is tailored for Salt Lake City but can be easily modified for use in other locales.
 - **User-Friendly Interface:** Offers a CLI for real-time access to delivery statuses and total mileage, enhancing operational efficiency and oversight.
 
-## Technologies Used
-- **Python**: Employs Python for the development of the routing algorithm and the backend logic.
+## Languages Used
+
+- **Python**
 
 ## Usage
+
 - **View Package Status:** Utilize the CLI to check a package's delivery status, including its delivery time, by inputting the package ID.
 - **Monitor Delivery Progress:** The system shows the total mileage covered by all trucks and allows for real-time tracking of delivery progress by entering a specific time.
 
-## License
-[MIT License](LICENSE)
----
-## CS Career Recommendation Chatbot
+### Example: Checking at 09:00
 
-The CS Career Recommendation Chatbot is a sophisticated tool designed to guide computer science students nearing graduation through their career decision-making process. It leverages a conversational AI model to engage with students, asking relevant questions to understand their career preferences and strengths, and provides customized career guidance and resources.
+![Status at 09:00](assets/status_0900.png)
 
-{TODO Image  Placeholder for Project Overview}
+### Example: Checking at 10:00
 
-## Table of Contents
-- [Key Features](#key-features)
-- [Training Cases](#training-cases)
-- [Usage](#usage)
-- [License](#license)
+![Status at 10:00](assets/status_1000.png)
 
-## Key Features
-- **Personalized Career Advice:** Offers career suggestions based on individual responses, aligning advice with the student's interests and strengths.
-- **Diverse Career Options:** Explores various computing careers, including Software Developer, Data Scientist, Network Administrator, Cybersecurity Analyst, and AI Researcher.
-- **Interactive Engagement:** Provides a conversational interface for a more natural and engaging user experience.
+### Example: Checking at 12:30
 
-## Training Cases
-The chatbot is trained on scenarios that mirror typical concerns among computer science students, aiding in targeted career guidance:
-
-1. **Students Proficient in Coding but Uncertain of Career Path:** Aids students with strong technical skills in exploring suitable careers.
-2. **Students Interested in Technology but Not in Math:** Guides students towards careers that are less reliant on advanced mathematical skills.
-
-These cases enhance the chatbot's ability to deliver relevant advice tailored to different user profiles.
-
-## Usage
-Users can interact with the chatbot via the Pandorabots platform, initiating conversations to receive career guidance and explore computing job options suited to their skills and interests.
+![Status at 12:30](assets/status_1230.png)
 
 ## License
+
 [MIT License](LICENSE)
